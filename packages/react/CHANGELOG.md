@@ -1,5 +1,11 @@
 # @celoco-ui/react
 
+## 2.0.1
+
+### Patch Changes
+
+- Add explanation to fowardRef construction on TextInput component
+
 ## 2.0.0
 
 ### Major Changes
