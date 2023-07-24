@@ -4,11 +4,11 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo run dev --parallel",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && turbo run dev --parallel",
     "build": "turbo run build",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filter=@celoco-ui/docs && changeset publish"
+    "release": "turbo run build --filter=!docs && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
