@@ -1,5 +1,5 @@
 {
-  "extends": "@celoco-ui/ts-config/react.json",
+  "extends": "@ignite-ui/ts-config/react.json",
   "include": ["src"]
   // "compilerOptions": {
   //   "jsx": "react"
