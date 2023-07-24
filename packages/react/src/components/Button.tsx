@@ -31,15 +31,17 @@ export const Button = styled('button', {
   '&:focus': {
     boxShadow: '0 0 0 2px $colors$gray100',
   },
-
+  // https://stitches.dev/docs/variants
+  // these work like classes but used like props on an element, e.g.
+  // <Button variant="primary">Button</Button>
   variants: {
     variant: {
       primary: {
         color: '$white',
-        background: '$ignite500',
+        background: '$green500',
 
         '&:not(:disabled):hover': {
-          background: '$ignite300',
+          background: '$green300',
         },
 
         '&:disabled': {
@@ -48,11 +50,11 @@ export const Button = styled('button', {
       },
 
       secondary: {
-        color: '$ignite300',
-        border: '2px solid $ignite500',
+        color: '$green300',
+        border: '2px solid $ green500',
 
         '&:not(:disabled):hover': {
-          background: '$ignite500',
+          background: '$green500',
           color: '$white',
         },
 
@@ -86,6 +88,7 @@ export const Button = styled('button', {
     },
   },
 
+  // default values if none are passed
   defaultVariants: {
     variant: 'primary',
     size: 'md',

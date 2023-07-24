@@ -13,7 +13,7 @@ export default {
   },
   argTypes: {
     variant: {
-      options: ['primary', 'secondary', 'tertiary'],
+      options: ['primary', 'secondary', 'tertiary'], // needs to match "variant" defined in stiches definition. In this case @/packages/react/src/Button.tsx otherwise it works but el is unstyled
       control: {
         type: 'inline-radio',
       },
@@ -29,7 +29,7 @@ export default {
         type: 'boolean',
       },
     },
-    onClick: { action: 'clicked' },
+    onClick: { action: 'clicked' }, // native or non-native actions are allowed
   },
 } as Meta<ButtonProps>
 
@@ -59,7 +59,7 @@ export const WithIcon: StoryObj<ButtonProps> = {
   args: {
     children: (
       <>
-        Próximo passo
+        Next
         <ArrowRight weight="bold" />
       </>
     ),
