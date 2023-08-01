@@ -1,5 +1,11 @@
 # @celoco-ui/react
 
+## 2.1.0
+
+### Minor Changes
+
+- Changes in typed variables for TextInput component (see var "size")
+
 ## 2.0.1
 
 ### Patch Changes
