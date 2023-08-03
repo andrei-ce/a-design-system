@@ -51,7 +51,7 @@ export const Button = styled('button', {
 
       secondary: {
         color: '$green300',
-        border: '2px solid $ green500',
+        border: '2px solid $green500',
 
         '&:not(:disabled):hover': {
           background: '$green500',
