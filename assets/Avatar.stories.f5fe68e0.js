@@ -1,0 +1,2 @@
+import{A as t}from"./index.e42d4a35.js";import"./index.c1e237e2.js";import"./iframe.494c9b14.js";import"./index.0903a458.js";import"./jsx-runtime.028bc91b.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/andrei-ce.png",alt:"Andrei Ce"},argTypes:{src:{control:{type:"text"}}}},c={},p={args:{src:void 0}},m=["Primary","WithFallback"];export{c as Primary,p as WithFallback,m as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.f5fe68e0.js.map
